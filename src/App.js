@@ -30,16 +30,23 @@
 
 import React, { Component } from 'react'
 import NavBar from './components/NavBar'
+import Home from './components/LogIn'
+import Dashboard from './components/Dashboard'
+import { homedir } from 'os';
 class App extends Component {
   render() {
     return (
       <div>
         <NavBar />
+        <Home />
+        <Dashboard/>
       </div>
     )
   }
 }
 export default App
+
+
 
 // import React from 'react';
 // import { makeStyles } from '@material-ui/core/styles';
