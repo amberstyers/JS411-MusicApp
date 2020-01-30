@@ -26,7 +26,7 @@
 // export default App;
 
 
-// This is code from Medium for the nav bar
+
 
 import React, { Component } from 'react'
 import NavBar from './components/NavBar'
