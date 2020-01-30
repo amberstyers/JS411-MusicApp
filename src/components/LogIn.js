@@ -21,8 +21,8 @@ export default function ContainedButtons() {
 
   return (
     <form className={classes.root} noValidate autoComplete="off">
-    <TextField id="standard-basic" label="Standard" />
-    <TextField id="standard-basic" label="Standard" />
+    <TextField id="standard-basic" label="Username*" />
+    <TextField id="standard-basic" label="Password*" />
     <div className={classes.root}>
       <Button variant="contained" color="primary">
         Log In

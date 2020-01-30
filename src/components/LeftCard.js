@@ -30,19 +30,19 @@ export default function SimpleCard() {
   return (
     <Card className={classes.card}>
       <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
+        {/* <Typography className={classes.title} color="textSecondary" gutterBottom>
           Word of the Day
-        </Typography>
+        </Typography> */}
         <Typography variant="h5" component="h2">
-          be{bull}nev{bull}o{bull}lent
+          Online Mode
         </Typography>
-        <Typography className={classes.pos} color="textSecondary">
+        {/* <Typography className={classes.pos} color="textSecondary">
           adjective
-        </Typography>
+        </Typography> */}
         <Typography variant="body2" component="p">
-          well meaning and kindly.
+          Is this application connected to the internet?
           <br />
-          {'"a benevolent smile"'}
+          {/* {'"a benevolent smile"'} */}
         </Typography>
       </CardContent>
       <CardActions>

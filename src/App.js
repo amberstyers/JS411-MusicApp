@@ -30,7 +30,7 @@
 
 import React, { Component } from 'react'
 import NavBar from './components/NavBar'
-import Home from './components/LogIn'
+import LogIn from './components/LogIn'
 import Dashboard from './components/Dashboard'
 import { homedir } from 'os';
 class App extends Component {
@@ -38,7 +38,7 @@ class App extends Component {
     return (
       <div>
         <NavBar />
-        <Home />
+        <LogIn />
         <Dashboard/>
       </div>
     )
